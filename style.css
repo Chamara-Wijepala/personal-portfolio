@@ -1,3 +1,8 @@
+:root {
+  --clr-primary-200: #fdf6f0;
+  --clr-primary-500: #413231;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -7,4 +12,10 @@ html {
 
 body {
   margin: 0;
+  background-color: var(--clr-primary-200);
+}
+
+footer {
+  color: var(--clr-primary-200);
+  background-color: var(--clr-primary-500);
 }
