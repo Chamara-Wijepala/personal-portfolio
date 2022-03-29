@@ -41,3 +41,30 @@ nav > a {
   color: inherit;
   text-decoration: none;
 }
+
+/* footer */
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer .icon {
+  display: none;
+}
+
+.email-address {
+  display: flex;
+  gap: .5rem;
+}
+
+.icon-links img {
+  max-width: 50px;
+}
+
+/* media queries */
+@media (min-width: 500px) {
+  footer .icon {
+    display: block;
+  }
+}
