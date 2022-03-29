@@ -12,10 +12,17 @@ html {
 
 body {
   margin: 0;
+  color: var(--clr-primary-500);
   background-color: var(--clr-primary-200);
 }
 
+nav,
 footer {
   color: var(--clr-primary-200);
   background-color: var(--clr-primary-500);
+}
+
+.page-wrapper > * {
+  padding-inline: .8rem;
+  padding-block: 1.6rem;
 }
