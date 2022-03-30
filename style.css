@@ -231,7 +231,9 @@ footer .icon {
     text-align: start;
   }
 
-  .page-wrapper > * {
+  .page-wrapper > *,
+  .projects-section,
+  .contact-information  {
     padding-inline: 1.6rem;
     padding-block: 2.4rem;
   }
