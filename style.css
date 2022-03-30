@@ -102,6 +102,15 @@ nav ul {
   gap: 1.2rem;
 }
 
+nav li {
+  transition: transform 300ms;
+}
+
+nav li:hover {
+  transform: scale(1.2);
+  color: white;
+}
+
 nav a {
   color: inherit;
   text-decoration: none;
@@ -152,6 +161,11 @@ footer .icon {
 
 .icon-links img {
   max-width: 50px;
+  transition: transform 300ms;
+}
+
+.icon-links img:hover {
+  transform: scale(1.2);
 }
 
 /* media queries */
