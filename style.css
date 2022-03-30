@@ -68,7 +68,8 @@ header,
 }
 
 .page-wrapper > *,
-.projects-section {
+.projects-section,
+.contact-information {
   padding-inline: .8rem;
   padding-block: 1.6rem;
   margin-inline: auto;
@@ -77,6 +78,7 @@ header,
 h1,
 h2 {
   font-family: 'amaticbold';
+  text-align: center;
 }
 
 h2 {
@@ -144,10 +146,14 @@ header h1 {
 }
 
 /* footer */
-footer {
+.contact-information {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.contact-information h2 {
+  width: 100%;
 }
 
 footer .icon {
@@ -170,9 +176,19 @@ footer .icon {
 
 /* media queries */
 @media (min-width: 500px) {
+  h1,
+  h2,
+  p {
+    text-align: start;
+  }
+
   .page-wrapper > * {
     padding-inline: 1.6rem;
     padding-block: 2.4rem;
+  }
+
+  .contact-information {
+    align-items: flex-start;
   }
 
   footer .icon {
