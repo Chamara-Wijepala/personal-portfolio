@@ -204,6 +204,10 @@ header h1 {
 }
 
 /* footer */
+footer h2 {
+  margin: 0;
+}
+
 .contact-information {
   display: flex;
   flex-direction: column;
