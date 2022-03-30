@@ -141,8 +141,17 @@ header h1 {
   margin: 0;
 }
 
+.intro-image {
+  margin: 1.2rem;
+  border-radius: 6px;
+  transform: rotate(-2deg);
+  background-color: var(--clr-secondary-300);
+  z-index: -1;
+}
+
 .intro-image > img {
   border-radius: 6px;
+  transform: rotate(9deg);
 }
 
 /* main */
