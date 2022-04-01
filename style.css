@@ -135,6 +135,12 @@ header h1 {
   margin: 0;
 }
 
+.intro-text a {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--clr-primary-500);
+}
+
 .intro-image {
   margin: 2rem;
   border-radius: 6px;
