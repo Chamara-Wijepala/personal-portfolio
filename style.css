@@ -189,7 +189,7 @@ header h1 {
 }
 
 .links img {
-  width: 25px;
+  width: 2rem;
   transition: transform 300ms;
 }
 
@@ -222,7 +222,7 @@ footer .icon {
 }
 
 .icon-links img {
-  max-width: 50px;
+  max-width: 4rem;
   transition: transform 300ms;
 }
 
